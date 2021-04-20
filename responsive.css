@@ -1,0 +1,153 @@
+@media screen and (max-width: 992px){
+
+  .testimonial-sl .item {
+    height: 218px;
+  }
+
+  .testimonial-text {
+    padding: 5px 4px;
+  }
+
+  .testimonial-text p {
+    padding: 14px 21px 14px 21px;
+    line-height: 13px;
+    text-align: justify;
+    color: #6d7396;
+    margin-top: 4px;
+  }
+  .testimonial-text .recognition {
+    font-weight: 700;
+    color: #222222;
+    margin-top: -8px;
+  }
+
+  .item img{
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+   .top-left-side {
+      text-align: center;
+   }
+ 
+   .top-right-side {
+      text-align: center;
+      padding-top: 5px;
+   }
+
+   .top-left-side p {
+      padding-bottom: 2px;
+      line-height: 10px;
+   }
+
+   .top-bar {
+      height: 120px;
+   }
+
+   .logo img {
+    margin: auto;
+    display: block;
+   }
+
+   ul.list-inline {
+       text-align: center;
+       padding: 10px 0px;
+   }
+   .main-menu{
+      display: none;
+   }
+   .mobile-menu{
+      display: block;
+   }
+
+   .slide-content h2 {
+    text-align: center;
+    font-size: 35px;
+    word-spacing: 0px;
+    top: 23%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   }
+
+   .slide-content p {
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+   }
+
+   .slide-content a {
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: auto;
+    top: 70%;
+    left: 0;
+    right: 0;
+   }
+   .call-one-text {
+    margin-bottom: 35px;
+    text-align: center;
+   }
+   .call-one-btn a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+
+   }
+  .service-box-title p {
+    width: 80%;
+  }
+
+  .counter-section {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 651px){
+    .category-text{
+      width: 84%;
+      margin-bottom: 23px;
+      text-align: justify;
+    }
+
+    ul.project-filter li {
+    display: block;
+    padding: 7px 9px;
+    position: relative;
+    text-align: left;
+   }
+
+   ul.project-filter li::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fab702;
+    height: 20px;
+    left: 0;
+   
+   }
+}
+
+@media screen and (max-width: 518px){
+  .slide-content h2{
+    padding: 0 5%;
+    top: 25%;
+    line-height: 30px;
+    font-size: 25px;
+
+  }
+
+  .slide-content p{
+    top: 40%;
+    padding: 0 5%;
+  }
+
+  .slide-content a{
+    top: 60%;
+  }
+}
